@@ -1,0 +1,24 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title>ProtoCrypt - Encrypt RSA</title>
+    <script type="application/javascript" language="JavaScript" src="../lib/prototype.js"></script>
+    <script type="application/javascript" language="JavaScript" src="../src/base.js"></script>
+    <script type="application/javascript" language="JavaScript" src="../src/reduction/classic.js"></script>
+    <script type="application/javascript" language="JavaScript" src="../src/reduction/montgomery.js"></script>
+    <script type="application/javascript" language="JavaScript" src="../src/bigint.js"></script>
+    <script type="application/javascript" language="JavaScript" src="../src/secure_states.js"></script>
+    <script type="application/javascript" language="JavaScript" src="../src/secure_random.js"></script>
+    <script type="application/javascript" language="JavaScript" src="../src/rsa.js"></script>
+    <script type="application/javascript" language="JavaScript" src="../src/helpers/string.js"></script>
+    <script type="application/javascript" language="JavaScript" src="../src/helpers/form.js"></script>
+  </head>
+  <body>
+    <form action="" method="post" onsubmit="$(this).request_secure({
+      n:'a5261939975948bb7a58dffe5ff54e65f0498f9175f5a09288810b8975871e99\naf3b5dd94057b0fc07535f5f97444504fa35169d461d0d30cf0192e307727c06\n5168c788771c561a9400fb49175e9e6aa4e23fe11af69e9412dd23b0cb6684c4\nc2429bce139e848ab26d0829073351f4acd36074eafd036a5eb83359d2a698d3',
+      e:'10001'}); return false;">
+      <input name="login"/><br/>
+      <input name="passwd" type="password"/></br/>
+      <input type="submit"/><br/>
+    </form>
+  </body>
+</html>

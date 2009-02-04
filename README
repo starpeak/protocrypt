@@ -1,0 +1,11 @@
+A RSA crypting library in JavaScript
+
+(C) Copyright 2009 Sven G. Brönstrup (StarPeak OnlineMedia)
+   broenstrup@spom.net
+   http://spom.net/
+
+Based on jsbn library
+   (c) 2005  Tom Wu
+   http://www-cs-students.stanford.edu/~tjw/jsbn/
+
+Released under MIT licence
