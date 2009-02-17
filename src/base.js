@@ -5,7 +5,7 @@
 Crypt={
   // Pool size must be a multiple of 4 and greater than 32.
   // An array of bytes the size of the pool will be passed to init()
-  psize: 256,
+  psize: 256
 }
 
 Crypt.Base = {
